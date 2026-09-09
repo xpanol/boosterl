@@ -1,0 +1,705 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BOOSTER LINGÜÍSTICO</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+    --font-main: "Special Elite", monospace;
+    --sentence-size: 18px;
+
+    --basic-bg: #F1EAFF;
+    --pro-bg: #DDD0FF;
+    --precise-bg: #BFA8FF;
+    --confident-bg: #7C3AED;
+
+    --black: #050505;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--font-main);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 55px 22px 80px;
+}
+
+/* HEADER */
+
+.header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.header h1 {
+    margin: 0 0 15px;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header .subtitle {
+    opacity: 0.8;
+}
+
+/* BOOSTER CARD */
+
+.booster-card {
+    margin-bottom: 45px;
+}
+
+.booster-number {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    opacity: 0.65;
+}
+
+/* LEVEL */
+
+.level {
+    padding: 22px 24px;
+    border-radius: 3px;
+    margin-bottom: 14px;
+
+    opacity: 1;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+}
+
+.level.dimmed {
+    opacity: 0.72;
+}
+
+.level-basic {
+    background: var(--basic-bg);
+    color: #111111;
+}
+
+.level-pro {
+    background: var(--pro-bg);
+    color: #111111;
+}
+
+.level-precise {
+    background: var(--precise-bg);
+    color: #111111;
+}
+
+.level-confident {
+    background: var(--confident-bg);
+    color: #111111;
+}
+
+.level-label {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+/* SENTENCE */
+
+.sentence {
+    margin: 0;
+}
+
+.sentence .es,
+.sentence .en {
+    font-family: var(--font-main);
+    font-size: var(--sentence-size) !important;
+    font-weight: 400;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.sentence .es {
+    margin-bottom: 8px;
+}
+
+.sentence .en {
+    color: #303030;
+}
+
+/* DIVIDERS */
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.18);
+    margin: 20px 0;
+}
+
+/* HIDDEN */
+
+.hidden {
+    display: none !important;
+}
+
+/* MAIN BOOST BUTTON */
+
+.boost-button {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 16px 20px;
+
+    background: var(--confident-bg);
+    color: #050505;
+
+    font-family: var(--font-main);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.boost-button:hover {
+    transform: translateY(-2px);
+}
+
+.boost-button:active {
+    transform: translateY(0);
+}
+
+/* SECONDARY CONTROLS */
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.secondary-button {
+    flex: 1;
+
+    padding: 11px 15px;
+
+    border: 1px solid rgba(255,255,255,0.3);
+    background: transparent;
+    color: white;
+
+    font-family: var(--font-main);
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.secondary-button:hover {
+    background: white;
+    color: black;
+}
+
+/* COMPLETE */
+
+.complete {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--confident-bg);
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 40px 16px 60px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    .level {
+        padding: 19px 18px;
+    }
+
+    .sentence .es,
+    .sentence .en {
+        font-size: 18px !important;
+    }
+
+    .controls {
+        gap: 8px;
+    }
+
+    .secondary-button {
+        font-size: 12px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+
+        <h1>BOOSTER LINGÜÍSTICO</h1>
+
+        <p>
+            <strong>Digital Marketing</strong>
+        </p>
+
+        <p class="subtitle">
+            Same idea. Stronger language.
+        </p>
+
+        <p class="subtitle">
+            Misma idea. Lenguaje más potente.
+        </p>
+
+    </header>
+
+
+    <main id="boosters-container"></main>
+
+</div>
+
+
+<!-- BOOSTER CONTENT -->
+
+<script src="boosters.js"></script>
+
+
+<script>
+
+/* =====================================================
+   BOOSTER STATE
+===================================================== */
+
+const currentLevel = {};
+
+
+/* =====================================================
+   CREATE BOOSTER HTML
+===================================================== */
+
+function createBoosterHTML(booster) {
+
+    return `
+
+        <section class="booster-card">
+
+            <div class="booster-number">
+                BOOSTER ${String(booster.id).padStart(2, "0")}
+            </div>
+
+
+            <!-- BASIC -->
+
+            <div
+                class="level level-basic"
+                id="basic-${booster.id}"
+            >
+
+                <div class="level-label">
+                    BASIC
+                </div>
+
+                <div class="sentence">
+
+                    <p class="es">
+                        ${booster.basic.es}
+                    </p>
+
+                    <p class="en">
+                        ${booster.basic.en}
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="divider"></div>
+
+
+            <!-- PRO -->
+
+            <div
+                class="level level-pro hidden"
+                id="pro-${booster.id}"
+            >
+
+                <div class="level-label">
+                    PRO
+                </div>
+
+                <div class="sentence">
+
+                    <p class="es">
+                        ${booster.pro.es}
+                    </p>
+
+                    <p class="en">
+                        ${booster.pro.en}
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                class="divider hidden"
+                id="divider-pro-${booster.id}"
+            ></div>
+
+
+            <!-- PRECISE -->
+
+            <div
+                class="level level-precise hidden"
+                id="precise-${booster.id}"
+            >
+
+                <div class="level-label">
+                    PRECISE
+                </div>
+
+                <div class="sentence">
+
+                    <p class="es">
+                        ${booster.precise.es}
+                    </p>
+
+                    <p class="en">
+                        ${booster.precise.en}
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                class="divider hidden"
+                id="divider-precise-${booster.id}"
+            ></div>
+
+
+            <!-- CONFIDENT -->
+
+            <div
+                class="level level-confident hidden"
+                id="confident-${booster.id}"
+            >
+
+                <div class="level-label">
+                    CONFIDENT
+                </div>
+
+                <div class="sentence">
+
+                    <p class="es">
+                        ${booster.confident.es}
+                    </p>
+
+                    <p class="en">
+                        ${booster.confident.en}
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAIN BUTTON -->
+
+            <button
+                class="boost-button"
+                id="button-${booster.id}"
+                onclick="boost(${booster.id})"
+            >
+                BOOST ME
+            </button>
+
+
+            <!-- SECONDARY CONTROLS -->
+
+            <div class="controls">
+
+                <button
+                    class="secondary-button hidden"
+                    id="back-${booster.id}"
+                    onclick="goBack(${booster.id})"
+                >
+                    BACK ONE
+                </button>
+
+                <button
+                    class="secondary-button hidden"
+                    id="reset-${booster.id}"
+                    onclick="resetBooster(${booster.id})"
+                >
+                    RESET
+                </button>
+
+            </div>
+
+
+            <!-- COMPLETE -->
+
+            <div
+                class="complete hidden"
+                id="complete-${booster.id}"
+            >
+                ✓ BOOST COMPLETE
+            </div>
+
+        </section>
+
+    `;
+}
+
+
+/* =====================================================
+   LOAD BOOSTERS
+===================================================== */
+
+const boostersContainer =
+    document.getElementById("boosters-container");
+
+
+boosters.forEach(booster => {
+
+    currentLevel[booster.id] = 0;
+
+    boostersContainer.insertAdjacentHTML(
+        "beforeend",
+        createBoosterHTML(booster)
+    );
+
+});
+
+
+/* =====================================================
+   RENDER BOOSTER
+===================================================== */
+
+function renderBooster(id) {
+
+    const level = currentLevel[id];
+
+    const levels = [
+        document.getElementById(`basic-${id}`),
+        document.getElementById(`pro-${id}`),
+        document.getElementById(`precise-${id}`),
+        document.getElementById(`confident-${id}`)
+    ];
+
+    const dividerPro =
+        document.getElementById(`divider-pro-${id}`);
+
+    const dividerPrecise =
+        document.getElementById(`divider-precise-${id}`);
+
+    const button =
+        document.getElementById(`button-${id}`);
+
+    const complete =
+        document.getElementById(`complete-${id}`);
+
+    const back =
+        document.getElementById(`back-${id}`);
+
+    const reset =
+        document.getElementById(`reset-${id}`);
+
+
+    /* LEVEL VISIBILITY + DIMMING */
+
+    levels.forEach((element, index) => {
+
+        const visible = index <= level;
+        const previous = index < level;
+
+        element.classList.toggle(
+            "hidden",
+            !visible
+        );
+
+        element.classList.toggle(
+            "dimmed",
+            previous
+        );
+
+    });
+
+
+    /* DIVIDERS */
+
+    dividerPro.classList.toggle(
+        "hidden",
+        level < 2
+    );
+
+    dividerPrecise.classList.toggle(
+        "hidden",
+        level < 3
+    );
+
+
+    /* MAIN BUTTON */
+
+    if (level === 0) {
+
+        button.style.display = "block";
+        button.textContent = "BOOST ME";
+
+    } else if (level < 3) {
+
+        button.style.display = "block";
+        button.textContent = "KEEP BOOSTING";
+
+    } else {
+
+        button.style.display = "none";
+
+    }
+
+
+    /* COMPLETE MESSAGE */
+
+    complete.classList.toggle(
+        "hidden",
+        level < 3
+    );
+
+
+    /* BACK BUTTON */
+
+    back.classList.toggle(
+        "hidden",
+        level === 0
+    );
+
+
+    /* RESET BUTTON */
+
+    reset.classList.toggle(
+        "hidden",
+        level === 0
+    );
+
+}
+
+
+/* =====================================================
+   BOOST
+===================================================== */
+
+function boost(id) {
+
+    if (currentLevel[id] < 3) {
+
+        currentLevel[id]++;
+
+        renderBooster(id);
+
+    }
+
+}
+
+
+/* =====================================================
+   BACK ONE
+===================================================== */
+
+function goBack(id) {
+
+    if (currentLevel[id] > 0) {
+
+        currentLevel[id]--;
+
+        renderBooster(id);
+
+    }
+
+}
+
+
+/* =====================================================
+   RESET
+===================================================== */
+
+function resetBooster(id) {
+
+    currentLevel[id] = 0;
+
+    renderBooster(id);
+
+}
+
+
+/* =====================================================
+   INITIAL STATE
+===================================================== */
+
+boosters.forEach(booster => {
+
+    renderBooster(booster.id);
+
+});
+
+</script>
+
+</body>
+</html>
+```
+
+Y el esquema de GitHub queda simplemente:
+
+```text
+tu-repositorio/
+│
+├── index.html
+│
+└── boosters.js
+```
+
+**Importante:** este `index.html` depende de que `boosters.js` esté en la **misma carpeta** y tenga exactamente ese nombre. Si GitHub Pages sirve ambos archivos desde la misma ubicación, funcionará directamente.
+
+El contenido editable queda completamente separado del diseño y de la lógica.
