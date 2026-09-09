@@ -2,7 +2,7 @@ const boosters = [
     {
         id: 1,
         basic: {
-            es: "Necesitamos mejorar nuestra estrategia de contenido.",
+            es: "Necesitamos mejorar nuestra estrategia de contenidos.",
             en: "We need to improve our content strategy."
         },
         pro: {
