@@ -28,6 +28,9 @@
             --precise-text: #111111;
             --confident-text: #FFFFFF;
 
+            /* BRAND */
+            --brand-yellow: #F8AC10;
+
             --black: #050505;
             --white: #FFFFFF;
         }
@@ -104,10 +107,6 @@
             transition:
                 opacity 0.3s ease,
                 transform 0.3s ease;
-        }
-
-        .level.dimmed {
-            opacity: 0.72;
         }
 
         /* LEVEL COLORS */
@@ -195,8 +194,8 @@
 
             padding: 16px 20px;
 
-            background: var(--confident-bg);
-            color: var(--confident-text);
+            background: var(--brand-yellow);
+            color: var(--black);
 
             font-family: var(--font-main);
             font-size: 16px;
@@ -578,11 +577,6 @@
                 element.classList.toggle(
                     "hidden",
                     index > level
-                );
-
-                element.classList.toggle(
-                    "dimmed",
-                    index < level
                 );
 
             });
