@@ -6,16 +6,16 @@ const boosters = [
             en: "We need to improve our content strategy."
         },
         pro: {
-            es: "Nuestra estrategia de contenidos necesita un replanteamiento serio para dar mejores resultados.",
-            en: "Our content strategy needs a serious rethink to deliver better results."
+            es: "Nuestra estrategia de contenidos necesita una revisión seria para generar mayor impacto.",
+            en: "Our content strategy needs a thorough refresh to drive meaningful impact."
         },
         precise: {
-            es: "Deberíamos revisar a fondo nuestra estrategia de contenidos para que realmente dé mejores resultados.",
-            en: "We should take a hard look at our content strategy so it actually delivers better results."
+            es: "Debemos auditar los pilares de contenido para identificar qué formatos generan mayor conversión.",
+            en: "We should audit our content pillars to identify which formats drive the highest conversion."
         },
         confident: {
-            es: "Vamos a replantear nuestra estrategia de contenidos para que dé resultados reales.",
-            en: "We're going to rethink our content strategy so it delivers real results."
+            es: "Vamos a redefinir nuestra estrategia de contenidos para garantizar resultados inmediatos y medibles.",
+            en: "We will overhaul our content strategy to guarantee immediate, measurable results."
         }
     },
 
@@ -26,16 +26,16 @@ const boosters = [
             en: "We can increase website traffic with a new campaign."
         },
         pro: {
-            es: "Podríamos impulsar de forma notable el tráfico de nuestra web con una nueva campaña.",
-            en: "We could meaningfully boost our website traffic with a new campaign."
+            es: "Una nueva campaña nos permitirá elevar significativamente el tráfico hacia la web.",
+            en: "A new campaign will allow us to significantly boost targeted website traffic."
         },
         precise: {
-            es: "Para conseguir más tráfico con esta campaña, deberíamos plantearla de forma mucho más estratégica.",
-            en: "To drive more traffic through this campaign, we should approach it in a far more strategic way."
+            es: "Optimizando la captura de tráfico cualificado en la nueva campaña, multiplicaremos las visitas web.",
+            en: "By optimizing high-intent traffic acquisition in the new campaign, we will scale site visits."
         },
         confident: {
-            es: "El objetivo es ejecutar esta campaña de forma mucho más estratégica para multiplicar el tráfico hacia la web.",
-            en: "The goal is to execute this campaign in a far more strategic way to drive significantly more traffic to the website."
+            es: "Ejecutaremos esta campaña de forma estratégica para multiplicar de inmediato el tráfico web.",
+            en: "We will execute this campaign strategically to immediately scale our website traffic."
         }
     },
 
@@ -46,16 +46,16 @@ const boosters = [
             en: "We need to review the campaign results."
         },
         pro: {
-            es: "Conviene analizar en profundidad cómo se ha comportado la campaña.",
-            en: "It's worth digging into how the campaign has actually performed."
+            es: "Es fundamental analizar los datos de rendimiento de la campaña para extraer métricas clave.",
+            en: "It is essential to analyze the campaign's performance data to extract key insights."
         },
         precise: {
-            es: "Deberíamos analizar los resultados con mucho más detalle antes de sacar conclusiones.",
-            en: "We should look at the results in much more detail before drawing any conclusions."
+            es: "Debemos examinar el rendimiento por canal para entender exactamente qué variables están funcionando.",
+            en: "We should evaluate channel-by-channel metrics to isolate the variables driving success."
         },
         confident: {
-            es: "Vamos a analizar los resultados a fondo para saber exactamente qué está funcionando.",
-            en: "We're going to dig into the results in depth to know exactly what's working."
+            es: "Analizaremos el rendimiento a fondo para escalar de inmediato las tácticas más rentables.",
+            en: "We will drill into the performance data to immediately scale what is working best."
         }
     },
 
@@ -66,20 +66,18 @@ const boosters = [
             en: "We need to improve our ads."
         },
         pro: {
-            es: "Nuestros anuncios podrían funcionar mucho mejor con un enfoque más cuidado.",
-            en: "Our ads could perform far better with a more thoughtful approach."
+            es: "Podemos optimizar el rendimiento de nuestros anuncios refinando los mensajes y creatividades.",
+            en: "We can optimize our ad performance by refining key messaging and creative assets."
         },
         precise: {
-            es: "Deberíamos revisar nuestros anuncios con mucho más rigor para que realmente funcionen mejor.",
-            en: "We should take a much more rigorous look at our ads so they actually perform better."
+            es: "Debemos testear nuevas variaciones de copy y diseño para reducir el coste por adquisición.",
+            en: "We should A/B test copy and design variations to systematically reduce our cost per acquisition."
         },
         confident: {
-            es: "Ha llegado el momento de reforzar nuestros anuncios de manera decidida para que funcionen mucho mejor.",
-            en: "It's time to strengthen our ads decisively so they perform far better."
+            es: "Es hora de reestructurar nuestras campañas publicitarias para maximizar el retorno de la inversión.",
+            en: "It's time to restructure our ad campaigns to maximize return on investment."
         }
     },
-
-    // --- NOWE BOOSTERY ---
 
     {
         id: 5,
@@ -88,16 +86,16 @@ const boosters = [
             en: "We should optimize our social media presence."
         },
         pro: {
-            es: "Nuestra presencia en redes sociales podría ser mucho más efectiva con una estrategia más clara.",
-            en: "Our social media presence could be far more effective with a clearer strategy."
+            es: "Una presencia en redes sociales más articulada reforzará nuestro posicionamiento de marca.",
+            en: "A more strategic social media presence will strengthen our brand positioning."
         },
         precise: {
-            es: "Necesitamos definir mejor cómo usamos cada red social para que el esfuerzo se traduzca en resultados reales.",
-            en: "We need to define more clearly how we use each social platform so the effort translates into real results."
+            es: "Debemos definir una línea editorial clara y un calendario específico para cada plataforma.",
+            en: "We must establish a clear editorial line and channel-specific content cadences."
         },
         confident: {
-            es: "Vamos a transformar nuestra presencia en redes sociales para que genere impacto y resultados medibles.",
-            en: "We're going to transform our social media presence so it generates real impact and measurable results."
+            es: "Vamos a transformar nuestra presencia en redes para liderar la conversación en el sector.",
+            en: "We will transform our social media strategy to dominate the conversation in our industry."
         }
     },
 
@@ -108,16 +106,16 @@ const boosters = [
             en: "We need to improve our audience segmentation."
         },
         pro: {
-            es: "La segmentación de nuestra audiencia puede afinarse mucho más para llegar a las personas adecuadas.",
-            en: "Our audience segmentation can be refined much further to reach the right people."
+            es: "Refinar la segmentación nos permitirá comunicar de forma más relevante con cada perfil.",
+            en: "Refining our segmentation will allow us to communicate more effectively with key personas."
         },
         precise: {
-            es: "Deberíamos revisar cómo definimos nuestros segmentos para asegurarnos de que estamos hablando con quien realmente importa.",
-            en: "We should review how we define our segments to make sure we're speaking to the people who actually matter."
+            es: "Debemos agrupar a los usuarios según su comportamiento e intención para personalizar cada mensaje.",
+            en: "We should segment users based on behavioral and intent data to personalize messaging."
         },
         confident: {
-            es: "Vamos a afinar la segmentación de nuestra audiencia para que cada mensaje llegue exactamente a quien debe llegar.",
-            en: "We're going to sharpen our audience segmentation so every message reaches exactly the right person."
+            es: "Afinaremos la segmentación para asegurar que cada impacto llegue al cliente ideal.",
+            en: "We will sharpen our targeting to ensure every campaign hits the exact ideal buyer."
         }
     },
 
@@ -128,16 +126,16 @@ const boosters = [
             en: "We need to improve our conversion rates."
         },
         pro: {
-            es: "Podemos conseguir tasas de conversión más altas si optimizamos mejor el recorrido del usuario.",
-            en: "We can achieve higher conversion rates if we optimize the user journey more effectively."
+            es: "Optimizar el embudo de conversión nos aportará una mayor rentabilidad en cada canal.",
+            en: "Optimizing the conversion funnel will yield higher efficiency across all channels."
         },
         precise: {
-            es: "Deberíamos analizar punto por punto el funnel para identificar dónde estamos perdiendo conversiones y actuar en consecuencia.",
-            en: "We should analyze the funnel point by point to identify where we're losing conversions and act accordingly."
+            es: "Debemos auditar cada paso del funnel para eliminar la fricción y corregir los puntos de fuga.",
+            en: "We should audit every funnel step to eliminate friction and fix drop-off points."
         },
         confident: {
-            es: "Vamos a optimizar todo el funnel para subir las tasas de conversión de forma sostenida y medible.",
-            en: "We're going to optimize the entire funnel to lift conversion rates in a sustained, measurable way."
+            es: "Vamos a optimizar el embudo de conversión para elevar de forma directa los ingresos.",
+            en: "We will optimize the end-to-end funnel to directly lift conversion rates and revenue."
         }
     }
 ];
